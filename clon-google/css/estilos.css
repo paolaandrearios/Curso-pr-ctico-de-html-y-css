@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?bivq6v');
+  src:  url('../fonts/icomoon.eot?bivq6v#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?bivq6v') format('truetype'),
+    url('../fonts/icomoon.woff?bivq6v') format('woff'),
+    url('../fonts/icomoon.svg?bivq6v#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mic:before {
+  content: "\e91e";
+  color: blue;
+  font-size: 20px;
+}
+.icon-search:before {
+  content: "\e986";
+  color: rgb(167, 161, 161);
+  font-size: 16px;
+}
+
+body {
+  font-family: Arial,sans-serif;
+  margin: 0;
+  height: 100vh;
+}
+
+.project-container {
+  height: 100vh;
+}
+
+main { 
+  height: 84%;
+}
+
+.header-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+}
+
+.apps-link img {
+  width: 20px;
+  height: 20px;
+}
+
+.login button {
+  background-color:rgb(66,133,244);
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px 15px;
+}
+
+.header-container a {
+  padding: 0 10px;
+  font-size: 10px;
+  text-decoration: none;
+  color: gray;
+  font-weight: 300;
+}
+
+.searcher-container {
+  padding:5% 0;
+}
+
+.icon-google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-google img {
+  width: 272px;
+}
+
+.bar-search {
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(218, 213, 213);
+  line-height: 45px;
+  margin: 0 32%;
+  border-radius: 40px;
+  margin-top: 2%;
+  padding: 0 8px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+.space-search {
+  width: 85%;
+  border: none;
+  outline: none;
+  padding: 0 15px;
+}
+
+.bar-search:hover{
+ box-shadow: 2px 1px 5px 0px rgb(195, 193, 193);  
+}
+
+
+.buttons-search {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+
+}
+
+.buttons-search input {
+  margin:8px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(242,242,242);
+}
+
+.footer {
+  background-color:rgb(242,242,242);
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.options-finder a {
+  text-decoration: none;
+  color: gray;
+  padding: 0 10px;
+}
+
+.terms-conditions a {
+  text-decoration: none;
+  color: gray;
+  padding: 0 10px;
+}
+
